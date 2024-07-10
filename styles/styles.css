@@ -85,6 +85,7 @@ flex-direction: row;
 justify-content: flex-start;
 align-items: center;
 padding: 80px 97px 80px 97px;
+margin-top: 0px;
 
 
 }
@@ -216,3 +217,212 @@ text-align: center;
     opacity: 0.7;
 
 }
+.main{
+    margin-top: ;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.third-div{
+    /* Frame 15 */
+position: absolute;
+width: 1140px;
+height: 775px;
+left: 148px;
+right: 152px;
+top: 2340px;
+bottom: 2130px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+}
+.title-3{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.description-3{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+
+}
+.video{
+    /* Frame 14 */
+position: static;
+width: 1148;
+height: 614px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 32px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 48px 0px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+
+}
+.jkh{
+    /* Rectangle 1 */
+position: static;
+width: 1076px;
+height: 550px;
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 10px 0px;
+}
+/* Basic styles for body */
+body {
+    margin: 0;
+    padding: 20px; /* Reduced padding for a simpler look */
+}
+/* Basic styles for body */
+body {
+    margin: 0;
+    padding: 20px; /* Reduced padding for a simpler look */
+}
+
+#current-target {
+    text-align: center;
+    padding: 20px 0; /* Reduced padding for a simpler look */
+}
+
+#current-target h2 {
+    color: #0D1321;
+    font-size: 32px;
+    font-family: 'Azeret Mono', monospace;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+#current-target p {
+    color: #0D1321;
+    font-size: 16px;
+    font-family: 'Azeret Mono', monospace;
+    font-weight: 400;
+    line-height: 1.6; /* Simplified line-height */
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: calc(33% - 40px); /* Simple width calculation */
+    box-sizing: border-box;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.html-card {
+    background-color: #f0f8ff;
+}
+
+.css-card {
+    background-color: #e6e6fa;
+}
+
+.js-card {
+    background-color: #fffacd;
+}
+
+.card h3 {
+    color: #0D1321;
+    font-size: 24px;
+    font-family: 'Azeret Mono', monospace;
+    font-weight: 800;
+    line-height: 1.5; /* Simplified line-height */
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #0D1321;
+    font-size: 16px;
+    font-family: 'Azeret Mono', monospace;
+    font-weight: 400;
+    line-height: 1.6; /* Simplified line-height */
+    margin-bottom: 20px;
+}
+
+#current-target .button {
+    color: #ffffff;
+    background-color: #0D1321;
+    font-size: 16px;
+    font-family: 'Azeret Mono', monospace;
+    font-weight: 700;
+    text-decoration: none; /* Removed underline */
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#current-target .button:hover {
+    text-decoration: none;
+}
+.f-start{
+    /* Frame 21 */
+position: absolute;
+width: 1440px;
+height: 100px;
+left: 0;
+top: 5145px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 25px 50px 25px 50px;border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);
+
+
+
+}
+.last-div{
+    /* Frame 24 */
+position: static;
+width: 1440px;
+height: 36px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+}
+
